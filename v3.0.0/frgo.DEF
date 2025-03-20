@@ -1,0 +1,4 @@
+LIBRARY frgo
+ 
+ EXPORTS 
+    KbdLayerDescriptor @1
