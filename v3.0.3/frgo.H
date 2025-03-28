@@ -9,7 +9,7 @@
 *
 * History:
 *
-* created by KBDTOOL v3.40 Wed Mar 19 09:24:32 2025
+* created by KBDTOOL v3.40 Fri Mar 28 15:49:29 2025
 *
 \***************************************************************************/
 
@@ -100,8 +100,10 @@
  #define T1A _EQ(                                      OEM_6                      )
 #undef  T1B
  #define T1B _EQ(                                   OEM_PLUS                      )
+#undef  T28
+ #define T28 _EQ(                                  OEM_MINUS                      )
 #undef  T29
- #define T29 _EQ(                                      OEM_8                      )
+ #define T29 _EQ(                                      OEM_7                      )
 #undef  T2B
- #define T2B _EQ(                                    #ERROR#                      )
+ #define T2B _EQ(                                      OEM_8                      )
 
